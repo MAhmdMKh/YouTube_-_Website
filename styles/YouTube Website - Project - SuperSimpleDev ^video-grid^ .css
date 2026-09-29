@@ -1,0 +1,130 @@
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.search-bar {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 751px) and (max-width: 999px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1000px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.thumbnail-row {
+    margin-bottom: 10px;
+
+    position: relative;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+.video-time {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 4px;
+
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+}
+
+
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.profile-picture-container {
+    display: inline-block;
+
+    position: relative;
+}
+.profile-picture-container:hover .channel-tooltip {
+    opacity: 1;
+}
+.profile-picture {
+    width: 36px;
+    border-radius: 25px;
+}
+.channel-tooltip {
+    background-color: white;
+    width: 200px;
+    border-radius: 6px;
+    opacity: 0;
+    padding: 12px;
+    pointer-events: none;
+    transition: opacity 0.15s;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    top: 45px;
+    z-index: 300;
+}
+.channel-tooltip-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 8px;
+}
+.channel-tooltip-name {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.channel-tooltip-status {
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+}
+
+
+.video-title {
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.video-title a {
+    color: black;
+    text-decoration: none;
+}
+
+.video-author,
+.video-status {
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+}
+
+.video-author {
+    margin-bottom: 4px;
+}
