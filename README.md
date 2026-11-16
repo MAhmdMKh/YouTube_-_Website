@@ -1,1 +1,1 @@
-![Website Homepage Screenshot](mahmdmkh_github (DeskTop Interface).pdf)
+[View Website Preview (PDF)](mahmdmkh_github (DeskTop Interface).pdf)
