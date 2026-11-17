@@ -7,7 +7,6 @@ I built it while learning front-end development.
 
 ![Desktop view](screenshots/mahmdmkh_github_Desktop_Interface.jpg)
 ![Tablet view](screenshots/mahmdmkh_github_Tablet_Interface.jpg)
-![Mobile view](screenshots/mahmdmkh_github_Mobile_Interface.jpg)
 
 ## Features
 
