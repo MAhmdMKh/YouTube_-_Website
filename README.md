@@ -3,7 +3,7 @@
 A responsive clone of the Twitter/X home page, built with **HTML and CSS only**.
 I built it while learning front-end development.
 
-[Live demo](https://mahmdmkh.github.io/YouTube_-_Website/)
+[Live Demo](https://mahmdmkh.github.io/YouTube_-_Website/)
 
 ![Desktop view](screenshots/mahmdmkh_github_DeskTop_Interface.jpg)
 ![Mobile view](screenshots/mahmdmkh_github_Tablet_Interface.jpg)
