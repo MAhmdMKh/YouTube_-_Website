@@ -1,38 +1,54 @@
-# Twitter/X Interface Clone
+# YouTube.com Interface Clone
 
-A responsive clone of the Twitter/X home page, built with **HTML and CSS only**.
+A responsive clone of the YouTube home page, built with **HTML and CSS only**.
 I built it while learning front-end development.
 
-[Live Demo](https://mahmdmkh.github.io/YouTube_-_Website/)
+**[Live demo](https://mahmdmkh.github.io/YouTube_-_Website/)**
 
-![Desktop view](screenshots/mahmdmkh_github_DeskTop_Interface.jpg)
-![Mobile view](screenshots/mahmdmkh_github_Tablet_Interface.jpg)
+![Desktop view](screenshots/mahmdmkh_github_Desktop_Interface.jpg)
+![Tablet view](screenshots/mahmdmkh_github_Tablet_Interface.jpg)
+![Mobile view](screenshots/mahmdmkh_github_Mobile_Interface.jpg)
 
 ## Features
 
-- Fixed left sidebar with navigation links and a profile menu
-- Sticky tabs and a post composer
-- Feed with posts, images, comments, and reaction hover effects
-- Profile hover cards (tooltips) built with CSS only
-- Right sidebar: search, Premium box, Today's News, Trends, and Who to follow
-- Responsive layout: the sidebar collapses to icons under 1150px, the right
-  sidebar hides under 975px, and the feed adapts down to small phone widths
+- Fixed header with menu button, logo, search bar, voice search, upload,
+  apps, notifications (with a counter), and a profile picture
+- Tooltips on the header buttons, built with CSS only
+- Fixed sidebar: icons with labels below 1200px, and a full sidebar with
+  text beside the icons on wider screens
+- Video grid with 12 video cards: thumbnail, duration badge, channel picture,
+  title, channel name, and views
+- Channel hover card (tooltip) on each profile picture
+- Responsive video grid: 2 columns up to 750px, 3 columns up to 999px,
+  and 4 columns from 1000px
 
 ## What I practiced
 
-HTML structure, the CSS box model, Flexbox, CSS Grid, positioning
-(fixed, sticky, absolute, relative), hover effects and transitions,
-media queries, and Chrome DevTools.
+HTML structure and semantic tags (`header`, `nav`, `main`), CSS Grid,
+Flexbox, positioning (fixed, absolute, relative), media queries,
+hover effects and transitions, and Chrome DevTools.
 
 ## Tech
 
 HTML5 · CSS3 (no JavaScript)
 
+## Project structure
+
+```
+├── index.html
+├── styles/      (general, header, sidebar, video-grid)
+├── icons/
+├── thumbnails/
+└── screenshots/
+```
+
 ## Known limitations and next steps
 
-- This is a static UI: buttons and menus are not fully interactive yet.
+- This is a static UI: the menu button, search, and buttons don't work yet.
   I'm learning JavaScript to add this.
-- Some values are fixed in `px`. I plan to move to `rem` and fluid units.
+- Images need `alt` text and the page needs a `lang` attribute for better
+  accessibility.
+- Some values are fixed in `px`. I plan to use more flexible units.
 
 ## Credits
 
